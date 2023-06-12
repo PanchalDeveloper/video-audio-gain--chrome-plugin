@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AGP - Audio Gain Plugin</title>
+
+  <!-- Adding Style Sheets -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Adding Scripts -->
+  <script src="/assets/js/main.js"></script>
+</head>
+<body>
+  <h1>AGP - Audio Gain Plugin</h1>
+  <form id="options-form">
+    <label for="video-input">Video QuerySelector:</label>
+    <input type="text" id="video-input" value="video">
+
+    <label for="gain-range">Audio Gain:</label>
+    <input type="range" id="gain-range" min="0" max="3" step="0.1" value="1.5">
+    <input type="number" id="gain-input" min="0" max="3" step="0.1" value="1.5">
+
+    <button type="submit">Apply Gain</button>
+  </form>
+</body>
+</html>
